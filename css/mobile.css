@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*SMARTPHONES ---------- RETRATO E PAISAGEM*/
+
+@media only screen and (max-width : 545px) {
+	
+body{
+	width: 100%;
+	background-repeat:no-repeat;
+	background-image:url(../imagens/3.png);
+}
+
+h1{
+	width:100%;
+	height:180px;
+	position:relative;
+	background-image:url(../imagens/LOGO_PRINCIPAL.png);
+	background-position:center;
+	text-indent:-10000px;
+	margin:0;
+	background-size:cover;	
+}
+
+.centro{
+	display:none;
+}
+
+}
